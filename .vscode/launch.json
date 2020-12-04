@@ -36,7 +36,8 @@
             "name": "Dart",
             "request": "launch",
             "type": "dart",
-            "program": "${file}"
+            "program": "${file}",
+            "cwd": "${fileDirname}"
         }
     ]
 }
