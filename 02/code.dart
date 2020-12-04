@@ -56,7 +56,7 @@ void part2(String str) {
 
 void main() {
   /* Read the file */
-  const path = "day2.txt";
+  const path = "input.txt";
   new File(path)
       .openRead()
       .map(utf8.decode)
